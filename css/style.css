@@ -1,21 +1,3 @@
-/*----------------------------------------------------
-@File: Default Styles
-@Author: SPONDON IT
-
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
----------------------------------------------------- */
-/*=====================================================================
-@Template Name: HostHub Construction 
-@Developed By: Naim Lasker
-Author E-mail: naimlasker@gmail.com
-
-=====================================================================*/
-/*----------------------------------------------------*/
-/*font Variables*/
-/*Color Variables*/
-/*=================== fonts ====================*/
 @import url("https://fonts.googleapis.com/css?family=Rajdhani:400,600|Roboto:400,500,500i");
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
@@ -2746,7 +2728,7 @@ h6 {
 .recent_update_area {
   background-image: url(../img/tab-bg.jpg);
   background-size: cover;
-  padding: 290px 0; }
+  padding: 80px 0 290px 0; }
   .recent_update_area.made_white {
     background: #fff; }
 
@@ -3704,8 +3686,346 @@ h6 {
   .copy_right_text p a {
     color: #8252fa; }
 
-/* End Footer Area css
-============================================================================================ */
-/*---------------------------------------------------- */
 
-/*# sourceMappingURL=style.css.map */
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Table ]*/
+
+.limiter {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-table100 {
+  width: 100%;
+  min-height: 50vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 33px 30px;
+}
+
+.wrap-table100 {
+  width: 1170px;
+}
+
+table {
+  border-spacing: 1;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: -15px 10px 70px 5px grey
+}
+table * {
+  position: relative;
+}
+table td, table th {
+  padding-left: 8px;
+}
+table thead tr {
+  height: 80px;
+  font-size: 17px !important;
+  background: url(../img/banner/home-banner.png);
+}
+table tbody tr {
+  height: 60px;
+}
+table tbody tr:last-child {
+  border: 0;
+}
+table td, table th {
+  text-align: left;
+}
+table td.l, table th.l {
+  text-align: right;
+}
+table td.c, table th.c {
+  text-align: center;
+}
+table td.r, table th.r {
+  text-align: center;
+}
+
+
+.table100-head th{
+  font-family: Roboto , sans-serif;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: unset;
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgba(392 , 127 ,312 ,.1);
+  color:grey;
+}
+
+tbody tr {
+  font-family: Roboto , sans-serif;
+  font-size: 15px;
+  color: #808080;
+  line-height: 1.2;
+  font-weight: unset;
+}
+
+tbody tr:hover {
+  color: white;
+  background-color: #DE98F2;
+  cursor: pointer;
+}
+
+.column1 {
+  width: 260px;
+  padding-left: 40px;
+}
+
+.column2 {
+  width: 160px;
+}
+
+.column3 {
+  width: 245px;
+}
+
+.column4 {
+  width: 110px;
+  text-align: right;
+}
+
+.column5 {
+  width: 170px;
+  text-align: right;
+}
+
+.column6 {
+  width: 222px;
+  text-align: right;
+  padding-right: 62px;
+}
+
+
+@media screen and (max-width: 992px) {
+  table {
+    display: block;
+  }
+  table > *, table tr, table td, table th {
+    display: block;
+  }
+  table thead {
+    display: none;
+  }
+  table tbody tr {
+    height: auto;
+    padding: 37px 0;
+  }
+  table tbody tr td {
+    padding-left: 40% !important;
+    margin-bottom: 24px;
+  }
+  table tbody tr td:last-child {
+    margin-bottom: 0;
+  }
+  table tbody tr td:before {
+    font-family: Roboto;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.2;
+    font-weight: unset;
+    position: absolute;
+    width: 40%;
+    left: 30px;
+    top: 0;
+  }
+  table tbody tr td:nth-child(1):before {
+    content: "Date";
+  }
+  table tbody tr td:nth-child(2):before {
+    content: "Subject";
+  }
+  table tbody tr td:nth-child(3):before {
+    content: "something";
+  }
+  table tbody tr td:nth-child(4):before {
+    content: "something";
+  }
+  table tbody tr td:nth-child(5):before {
+    content: "something";
+  }
+  table tbody tr td:nth-child(6):before {
+    content: "another thing";
+  }  
+
+  .column4,
+  .column5,
+  .column6 {
+    text-align: left;
+  }
+
+  .column7 button{
+    position: absolute;
+    right: -100%;
+    top: -52px;
+  }
+
+  .column4,
+  .column5,
+  .column6,
+  .column1,
+  .column2,
+  .column3 {
+    width: 100%;
+  }
+
+  tbody tr {
+    font-size: 14px;
+  }
+}
+
+.expand-log{
+  background:rgba(39 , 17 ,32 ,.0);
+}
+.expand-log:hover,.expand-log:focus{
+  box-shadow:0px 0px 4px 2px purple;
+
+}
+
+.more{
+  position: fixed;
+  top:0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background:rgba(255,255,255,.8);
+  visibility: hidden;
+  z-index: 1000;
+  overflow-y: scroll;
+}
+@media(max-width:991px){
+  .more{
+    z-index: 10000;
+  }
+  .logged-by{
+    display: none;
+  }
+}
+.more .more-expand{
+  background:white;
+  border-radius: 6px;
+  min-height: 50vh;
+  width:1100px;
+  max-width: 95%;
+  box-shadow:0px 0px 20px 0px grey;
+}
+
+.more-expand-header{
+  box-shadow:0px 0px 20px 0px grey;
+  padding:10px 2%;
+}
+
+.more-expand-header h3{
+  margin-top: 20px
+}
+.more-expand-header .fa-close{
+  float:right;
+  margin:-30px 14px 0px 0px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.more-expand-body{
+  padding:20px 5%;
+
+}
+
+.more-expand-body h3:nth-child(1){
+  color: #B97CF5;
+  text-decoration: underline;
+  text-align:right;
+}
+
+.logged-by{
+  font-size: 13px !important
+}
+
+@media (max-width: 576px) {
+  .container-table100 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+    p{
+      font-size: 16px;
+    }
+    .form-start{
+      background: white;
+      background: url(../img/maparea.jpg);
+      width: 800px;
+      opacity: .97;
+      max-width: 95%;
+      border-radius: 7px;
+      box-shadow:0px 0px 40px #444;
+      text-align:left;
+      padding: 7% 7%;
+      position: absolute;
+      background-repeat: repeat;
+
+    }
+    .form-control:hover,.form-control:focus{
+      box-shadow: none;
+      outline: none;
+      font-family: cursive;
+    }
+    @media(min-width:841px) and (max-width:992px ){
+      .form-start{
+        left:5%;
+      }
+    }
+    @media(max-width:840px){
+      .form-start{
+        left:2.5%;
+      }
+    }
+    .form-start label{
+      text-transform: uppercase;
+      font-weight:lighter;
+      font-size: 14px;
+    }
+    .form-start *{
+      font-weight: lighter !important;
+      font-family: sans-serif;
+    }
+
+    .nav-item.dropdown:hover span{
+      -webkit-transform:rotate(180deg);
+      -moz-transform:rotate(180deg);
+      transform:rotate(180deg);
+      transition:all .41s linear;
+      -webkit-transition:all .41s linear;
+      -moz-transition:all .41s linear;
+    }
+
+    .nav-item.dropdown span{
+      transition:all .41s linear;
+      -webkit-transition:all .41s linear;
+      -moz-transition:all .41s linear;
+      color:grey;
+      font-size: 11px;
+      margin-left: 5px
+    }
