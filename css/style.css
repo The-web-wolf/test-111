@@ -4029,3 +4029,34 @@ tbody tr:hover {
       font-size: 11px;
       margin-left: 5px
     }
+  
+  /* login and signup forms and divs */
+
+  .login-parent .more-expand{
+    width:600px !important;
+    border-radius: 20px;
+  }
+
+  .login-parent .more-expand-header{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .login-form input{
+    margin:7% 1%;
+    height:50px;
+    background:transparent !important;
+  }
+  .form-control:hover{
+    border-bottom: 2px solid lightgrey !important;
+   }
+  .form-control:focus{
+    outline: 2px solid #B97CF5 !important;
+    box-shadow: 1px -1px 20px 1px grey !important;
+    border: 2px solid #B97CF5 !important;
+  }
+
+  a.link{
+    color:inherit ;
+    text-shadow: 1px 1px 2px #b97;
+    text-decoration: underline;
+  }
