@@ -165,7 +165,7 @@
             $('.login-parent').removeClass('slideOutDown')          
         })
 
-        $('.close').click(function(){
+        $('.close,.new-trial').click(function(){
             $('.login-parent').addClass('slideOutDown')
             setTimeout(function(){
                 $('.login-parent').css('visibility' , 'hidden')
