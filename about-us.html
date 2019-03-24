@@ -1,29 +1,74 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="icon" href="img/favicon.png" type="image/png">
-        <title>About Test 111</title>
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="vendors/linericon/style.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
-        <!-- main css -->
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="img/favicon.png" type="image/png">
+	<link rel="shortcut icon" href="https://theventurespark.com/favicon.png">
+	<title>About Us - The Ventures park</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="vendors/linericon/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="vendors/animate-css/animate.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- main css -->
+	<link rel="stylesheet" href="css/style.css">
+	<style type="text/css">
+		#logoLight,#logoDark{
+			display: none;
+			width: 60px;
+			height:auto;
+		}
+		.owl-item .item img{
+			opacity: .3;
+		}
+		.owl-item.active .item img{
+			box-shadow: 0px 0px 50px 20px #222;
+			opacity: 1;
+			z-index: 1
+		}
+
+	</style>
+</head>
+
+<body>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49.1 49.1" id='logoLight'>
+    <title>
+        logo
+    </title>
+    <polygon fill="#fff" points="49.1 11.4 49.1 21.8 21.8 49.1 19 49.1 15.2 45.3 49.1 11.4"/>
+    <polygon fill="#fff" points="49.1 0 49.1 9.9 14.5 44.6 9.5 39.6 24.5 24.5 24.6 24.6 49.1 0"/>
+    <polygon fill="#fff" points="18.5 29.1 14.1 33.6 0 19.6 0 10.6 18.5 29.1"/>
+    <polygon fill="#fff" points="13.3 34.3 8.8 38.9 0 30.1 0 21 13.3 34.3"/>
+    <polygon fill="#fff" points="23.8 23.8 19.2 28.4 0 9.2 0 0 23.8 23.8"/>
+    <polygon fill="#fff" points="49.1 23.2 49.1 30.1 30.1 49.1 23.2 49.1 49.1 23.2"/>
+</svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49.1 49.1" id='logoDark'>
+    <title>
+        logo
+    </title>
+    <polygon fill="#9A64F8" points="49.1 11.4 49.1 21.8 21.8 49.1 19 49.1 15.2 45.3 49.1 11.4"/>
+    <polygon fill="#9A64F8" points="49.1 0 49.1 9.9 14.5 44.6 9.5 39.6 24.5 24.5 24.6 24.6 49.1 0"/>
+    <polygon fill="#9A64F8" points="18.5 29.1 14.1 33.6 0 19.6 0 10.6 18.5 29.1"/>
+    <polygon fill="#9A64F8" points="13.3 34.3 8.8 38.9 0 30.1 0 21 13.3 34.3"/>
+    <polygon fill="#9A64F8" points="23.8 23.8 19.2 28.4 0 9.2 0 0 23.8 23.8"/>
+    <polygon fill="#9A64F8" points="49.1 23.2 49.1 30.1 30.1 49.1 23.2 49.1 49.1 23.2"/>
+</svg>
+
 	<!--================Header Menu Area =================-->
 	<header class="header_area">
+
 		<div class="main_menu">
 			<nav class="navbar navbar-expand-lg navbar-light">
-				<div class="container">
+					<div class="container">
 					<!-- Brand and toggle get grouped for better mobile display -->
-					<a class="navbar-brand logo_h" href="index.html"><img src="img/favicon.png" alt=""> <span style="font-weight: bolder;font-size: 22px;font-family: 'Bookman old style'"> Test 111 </span></a>
+					<a class="navbar-brand" href="index.html">  </a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="icon-bar"></span>
@@ -33,37 +78,23 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav justify-content-center">
-							<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-							<li class="nav-item active"><a class="nav-link" href="about-us.html">About</a></li>							
+							<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+							<li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>							
 							<li class="nav-item"><a class="nav-link" href="features.html">Features</a></li>
+							<li class="nav-item"><a class="nav-link" href="pricing.html">Pricing Plans</a></li>
 							<li class="nav-item submenu dropdown">
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">Examples</a>
+								 aria-expanded="false">Our Spaces <span class="fa fa-chevron-down"></span> </a>
 								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="elements.html">Meeting Room</a></li>
-									<li class="nav-item"><a class="nav-link" href="elements.html">Sports Venue</a></li>
-									<li class="nav-item"><a class="nav-link" href="elements.html">Professional Studios</a></li>
-									<li class="nav-item"><a class="nav-link" href="elements.html">Coworker Spaces</a></li>
-									<li class="nav-item"><a class="nav-link" href="elements.html">Consulting Rooms</a></li>
-									<li class="nav-item"><a class="nav-link" href="elements.html">Classrooms and Labs</a></li>
-									<li class="nav-item"><a class="nav-link" href="elements.html">Community Facilities</a></li>
-								</ul>
-							</li>
-							<li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">More</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="blog.html">Blah Blah</a></li>
-									<li class="nav-item"><a class="nav-link" href="blog.html">Blah Blah</a></li>
-									<li class="nav-item"><a class="nav-link" href="blog.html">Blah Blah</a></li>
-									<li class="nav-item"><a class="nav-link" href="blog.html">Blah Blah</a></li>
-									<li class="nav-item"><a class="nav-link" href="blog.html">Blah Blah</a></li>
+									<li class="nav-item"><a class="nav-link" href="elements.html">Conference Room</a></li>
+									<li class="nav-item"><a class="nav-link" href="elements.html">Training Room 1</a></li>
+									<li class="nav-item"><a class="nav-link" href="elements.html">Training room 2</a></li>
 								</ul>
 							</li>
 							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
-							<li class="nav-item" id="free-trial"><a href="#" class="primary_btn text-uppercase">free trial</a></li>
+							<li class="nav-item" id="free-trial"><a href="#" class="primary_btn text-uppercase">Book A Space</a></li>
 						</ul>
 					</div>
 				</div>
@@ -71,119 +102,230 @@
 		</div>
 	</header>
 	<!--================Header Menu Area =================-->
-  
-        <!--================Home Banner Area =================-->
-        <section class="banner_area">
-            <div class="banner_inner d-flex align-items-center">
-            	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
-				<div class="container">
-					<div class="banner_content text-center">
-						<h2>About Us</h2>
-						<div class="page_link">
-							<a href="index.html">Home</a>
-							<a href="about-us.html">About</a>
+
+	<!--================Home Banner Area =================-->
+	<section class="home_banner_area">
+		<div class="banner_inner">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5">
+						<div class="banner_content">
+							<h2>
+								Free online booking and  scheduling for your venue
+							</h2>
+							<p style="font-size: 18px;">
+								Trusted by thousands of venues around the world, Ventures park is the smartest way to manage your labs.
+							</p>
+							<div class="d-flex align-items-center">
+								<a class="primary_btn get-started" href="#"><span>Get Started</span></a>
+	
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-7">
+						<div class="home_right_img">
+							<img class="img-fluid" src="img/f-img2.png" alt="">
 						</div>
 					</div>
 				</div>
-            </div>
-        </section>
-        <!--================End Home Banner Area =================-->
-        
-        <!--================Made Life Area =================-->
-        <section class="made_life_area section_gap">
-        	<div class="container">
-        		<div class="made_life_inner">
-					<ul class="nav nav-tabs" id="myTab" role="tablist">
-						<li class="nav-item">
-						<a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Easy to use</a>
-						</li>
-						<li class="nav-item">
-						<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Unlimited Colors</a>
-						</li>
-						<li class="nav-item">
-						<a class="nav-link active" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Unique Features</a>
-						</li>
-						<li class="nav-item">
-						<a class="nav-link" id="edge-tab" data-toggle="tab" href="#edge" role="tab" aria-controls="edge" aria-selected="false">Unique Features</a>
-						</li>
-					</ul>
-					<div class="tab-content" id="myTabContent">
-						<div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
-							<div class="row made_life_text">
-								<div class="col-lg-6">
-									<div class="left_side_text">
-										<h3>We’ve made a life <br />that will change you</h3>
-										<h6>We are here to listen from you deliver exellence</h6>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
-										<a class="primary_btn" href="#">Get Started Now</a>
-									</div>
-								</div>
-								<div class="col-lg-6">
-									<div class="chart_img">
-										<img class="img-fluid" src="img/chart.jpg" alt="">
-									</div>
+			</div>
+		</div>
+	</section>
+	<!--================End Home Banner Area =================-->
+
+	<!--================Start Features Area =================-->
+	<section class=" features_area">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-8 text-center">
+					<div class="main_title">
+						<p class="top_title">Feature-rich, yet elegant</p>
+						<h2>What's on offer </h2>
+						<p style="font-size: 
+						19px">Ventures park takes the hassle out of managing your space. If you're looking to reduce administration and increase usage, we can help!</p>
+						<a href="features" class="primary_btn"><span>Tour Ventures park Features</span></a>
+					</div>
+				</div>
+			</div>
+			<div class="row align-items-center">
+				<div class="col-lg-6">
+					<div class="left_features">
+						<img class="img-fluid" src="https://theventurespark.com/images/bg.png" alt="">
+					</div>
+				</div>
+				<div class="col-lg-5 offset-lg-1">
+					<!-- single features -->
+					<div class="single_feature">
+						<div class="feature_head">
+							<span class="lnr lnr-link"></span>
+							<h4>Work Space</h4>
+						</div>
+						<div class="feature_content">
+							<p>Affordable open work spaces and dedicated hot-desks</p>
+						</div>
+					</div>
+					<!-- single features -->
+					<div class="single_feature">
+						<div class="feature_head">
+							<span class="lnr lnr-layers"></span>
+							<h4>Conference and meeting rooms</h4>
+						</div>
+						<div class="feature_content">
+							<p>Real-time availability for all our meeting rooms. Request and manage bookings online.</p>
+						</div>
+					</div>
+					<!-- single features -->
+					<div class="single_feature">
+						<div class="feature_head">
+							<span class="lnr lnr-apartment"></span>
+							<h4>Private Offices</h4>
+						</div>
+						<div class="feature_content">
+							<p>Individual private offices to suit your needs or working style.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================End Features Area =================-->
+
+	<!--================Recent Update Area =================-->
+	<section class="recent_update_area">
+		<div class="container">
+			<div class="recent_update_inner">
+				<ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+					<li class="nav-item">
+						<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
+							<span class="lnr lnr-screen"></span>
+							<h6>Conference Room</h6>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+						 aria-selected="false">
+						 <span class="lnr lnr-users"></span>
+						 <h6>Training room 1</h6>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+						 aria-selected="false">
+						 <span class="lnr lnr-users"><sup>2</sup></span>
+						 <h6>Training room 2</h6>
+						</a>
+					</li>
+				</ul>
+				<div class="tab-content" id="myTabContent">
+					<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+						<div class="row recent_update_text align-items-center">
+							<div class="col-lg-5">
+								<div class="common_style">
+									<p class="line">Conference Room</p>
+									<h3>We Believe that <br /> Inner beauty Lasts Long</h3>
+									<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that as women.</p>
+									<a class="primary_btn" href="Conference"><span>Check availability</span></a>
 								</div>
 							</div>
-						</div>
-						<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-							<div class="row made_life_text">
-								<div class="col-lg-6">
-									<div class="left_side_text">
-										<h3>We’ve made a life <br />that will change you</h3>
-										<h6>We are here to listen from you deliver exellence</h6>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
-										<a class="primary_btn" href="#">Get Started Now</a>
-									</div>
-								</div>
-								<div class="col-lg-6">
-									<div class="chart_img">
-										<img class="img-fluid" src="img/chart.jpg" alt="">
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="tab-pane fade show active" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-							<div class="row made_life_text">
-								<div class="col-lg-6">
-									<div class="left_side_text">
-										<h3>We’ve made a life <br />that will change you</h3>
-										<h6>We are here to listen from you deliver exellence</h6>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
-										<a class="primary_btn" href="#">Get Started Now</a>
-									</div>
-								</div>
-								<div class="col-lg-6">
-									<div class="chart_img">
-										<img class="img-fluid" src="img/chart.jpg" alt="">
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="tab-pane fade" id="edge" role="tabpanel" aria-labelledby="edge-tab">
-							<div class="row made_life_text">
-								<div class="col-lg-6">
-									<div class="left_side_text">
-										<h3>We’ve made a life <br />that will change you</h3>
-										<h6>We are here to listen from you deliver exellence</h6>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
-										<a class="primary_btn" href="#">Get Started Now</a>
-									</div>
-								</div>
-								<div class="col-lg-6">
-									<div class="chart_img">
-										<img class="img-fluid" src="img/chart.jpg" alt="">
-									</div>
+							<div class="col-lg-6">
+								<div class="chart_img first-carousel owl-carousel">
+									<div class="item"><img class="img-fluid" src="https://api.theventurespark.com/images/space/047ed3c273fb71733bea07d6047c4d1f1528798071077.jpeg" alt="Conference room"></div>
+									<div class="item"><img class="img-fluid" src="https://api.theventurespark.com/images/space/047ed3c273fb71733bea07d6047c4d1f1528798071077.jpeg" alt="Conference room"></div>
+									<div class="item"><img class="img-fluid" src="https://api.theventurespark.com/images/space/047ed3c273fb71733bea07d6047c4d1f1528798071077.jpeg" alt="Conference room"></div>
+									<div class="item"><img class="img-fluid" src="https://api.theventurespark.com/images/space/047ed3c273fb71733bea07d6047c4d1f1528798071077.jpeg" alt="Conference room"></div>
 								</div>
 							</div>
 						</div>
 					</div>
-        		</div>
-        	</div>
-        </section>
-        <!--================End Made Life Area =================-->
-       
+					<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+						<div class="row recent_update_text align-items-center">
+							<div class="col-lg-5">
+								<div class="common_style">
+									<p class="line">Training room 1</p>
+									<h3>We Believe that <br /> Inner beauty Lasts Long</h3>
+									<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that as women.</p>
+									<a class="primary_btn" href="trainiing1"><span>Check Availability</span></a>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="chart_img second-carousel owl-carousel">
+									<div class="item"><img class="img-fluid" src="https://api.theventurespark.com/images/space/355e08f6e84294108b5f0ce8c41f7b981528798308152.jpeg" alt="Ventures park Training room one"></div>
+									<div class="item"><img class="img-fluid" src="https://api.theventurespark.com/images/space/355e08f6e84294108b5f0ce8c41f7b981528798308152.jpeg" alt="Ventures park Training room one"></div>
+									<div class="item"><img class="img-fluid" src="https://api.theventurespark.com/images/space/355e08f6e84294108b5f0ce8c41f7b981528798308152.jpeg" alt="Ventures park Training room one"></div>
+									<div class="item"><img class="img-fluid" src="https://api.theventurespark.com/images/space/355e08f6e84294108b5f0ce8c41f7b981528798308152.jpeg" alt="Ventures park Training room one"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+						<div class="row recent_update_text align-items-center">
+							<div class="col-lg-5">
+								<div class="common_style">
+									<p class="line">Training room 2s</p>
+									<h3>We Believe that <br /> Inner beauty Lasts Long</h3>
+									<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that as women.</p>
+									<a class="primary_btn" href="training2"><span>Check availability</span></a>
+								</div>
+							</div>
+							<div class="col-lg-6 text-right">
+								<div class="chart_img third-carousel owl-carousel">
+									<div class="item"><img class="img-fluid" src="https://api.theventurespark.com/images/space/b4ac8c2df6fbfb1c6edfa5f4b447767d1528798691599.jpeg" alt="Ventures park training room two"></div>
+									<div class="item"><img class="img-fluid" src="https://api.theventurespark.com/images/space/b4ac8c2df6fbfb1c6edfa5f4b447767d1528798691599.jpeg" alt="Ventures park training room two"></div>
+									<div class="item"><img class="img-fluid" src="https://api.theventurespark.com/images/space/b4ac8c2df6fbfb1c6edfa5f4b447767d1528798691599.jpeg" alt="Ventures park training room two"></div>
+									<div class="item"><img class="img-fluid" src="https://api.theventurespark.com/images/space/b4ac8c2df6fbfb1c6edfa5f4b447767d1528798691599.jpeg" alt="Ventures park training room two"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================ Recent Update Area =================-->
+
+	<!--================Impress Area =================-->
+	<section class="impress_area" style="margin-top: -10%">
+		<div class="container">
+			<div class="impress_inner">
+				<h2>Ready for Your Free Acocunt?</h2>
+				<p>Fill this form to get your free ventures park account.</p>
+
+				<div class="form-start container">
+					<h2 style="color: #BD7FF5">Welcome to <strong style="color:#9662F2">VENTURES PARK</strong></h2>
+
+					<h5 style="margin-bottom: 30px;">Let's get started (Step 1 of 3) </h5>
+
+					<form>
+						<div class="form-group">
+							<label>Your Full Name *</label>
+							<input type="text" name="vName" class="form-control" required="">
+						</div>
+						<div class="form-group">
+							<label>Your Email Address *</label>
+							<input type="text" name="vName" class="form-control" required="">
+						</div>
+						<div class="form-group">
+							<label>Choose a password *</label>
+							<input type="text" name="vName" class="form-control" required="">
+						</div>
+						<div class="form-group">
+							<label>Confirm password * </label>
+							<input type="text" name="vName" class="form-control" required="">
+						</div>
+
+						<button class="primary_btn" type="submit"><span>Create Account</span></button>
+					</form>
+					<br>
+					Already Have An Account? <a href="login.html" class="loginTrigger link"> Login </a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================End Impress Area =================-->
+
+
 	<!--================Footer Area =================-->
-	<footer class="footer_area">
+	<footer class="footer_area" style="margin-top: 450px">
 		<div class="container">
 			<div class="row footer_inner">
 				<div class="col-lg-5 col-sm-6">
@@ -234,24 +376,48 @@
 	</footer>
 	<!--================End Footer Area =================-->
 
-        
-        
-        
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="js/jquery-3.2.1.min.js"></script>
-        <script src="js/popper.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/stellar.js"></script>
-        <script src="vendors/lightbox/simpleLightbox.min.js"></script>
-        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
-        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-        <script src="vendors/isotope/isotope-min.js"></script>
-        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-        <script src="js/jquery.ajaxchimp.min.js"></script>
-        <script src="js/mail-script.js"></script>
-        <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
-        <script src="vendors/counter-up/jquery.counterup.min.js"></script>
-        <script src="js/theme.js"></script>
-    </body>
+	<!-- Login form starts here -->
+	<section class="login-parent more animated">
+		<div class="more-expand">
+			<div class="more-expand-header">
+				<h3 class="text-center" style="font-weight: lighter;">Login your Ventures park account</h3 >
+				<span class="fa fa-close close"></span>
+			</div>
+			<div class="more-expand-body text-center">
+				<img src="img/quote.png" alt="Login"> 
+				<div class="login-form">
+					<form>
+						<input type="text" name="vName" class="form-control" required="" placeholder="Username / email address">
+						<input type="password" name="password" class="form-control" required="" placeholder="Input your Password">
+
+						<div class="text-right">
+							<button class="primary_btn" type="submit"><span><i class="fa fa-sign-in fa-lg" style="margin-right: 15px"></i> Login</span></button>
+						</div>
+					</form>
+					<p style="text-align: left;margin-top: 15px">
+						No account? <a href="" class="link"> Start your free trial now</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Login form ends here -->
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+	<script src="vendors/isotope/isotope-min.js"></script>
+	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+	<!--gmaps Js-->
+	<script src="js/theme.js"></script>
+	<script type="text/javascript">
+
+	</script>
+</body>
+
 </html>

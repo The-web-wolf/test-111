@@ -87,19 +87,6 @@
 
         });
     });
-
-
-    /*----------------------------------------------------*/
-    /*  Magnific Pop up js (Home Video)
-    /*----------------------------------------------------*/
-    $('#play-home-video').magnificPopup({
-        type: 'iframe',
-        mainClass: 'mfp-fade',
-        removalDelay: 160,
-        preloader: false,
-        fixedContentPos: false
-    });
-	
 	
 	/*----------------------------------------------------*/
     /*  Isotope Fillter js
@@ -165,9 +152,46 @@
     // }
     // testimonials_slider();
 
-    $('#free-trial').click(function(){
+    $('#free-trial,.get-started').click(function(){
         $('html, body').animate({
             scrollTop: ($('.impress_area').first().offset().top)
         },700);        
     })
+
+        $('.loginTrigger').click(function(e){
+            e.preventDefault();
+            $('.login-parent').addClass('slideInUp')
+            $('.login-parent').css('visibility' , 'visible')
+            $('.login-parent').removeClass('slideOutDown')          
+        })
+
+        $('.close').click(function(){
+            $('.login-parent').addClass('slideOutDown')
+            setTimeout(function(){
+                $('.login-parent').css('visibility' , 'hidden')
+                $('.login-parent').removeClass('slideInUp')
+            },800)
+        })
+
+        if($(window).width() > 991){
+            $('.navbar-brand').html($('#logoDark'));
+            $('#logoDark').show()
+        }
+        else{
+            $('.navbar-brand').append($('#logoLight'));
+            $('#logoLight').show()          
+        }
+
+        $('.chart_img').owlCarousel({
+            items : 1,
+            autoplay : true,
+            margin: 0,
+            autoplayTimeout: 1700,
+            loop : true ,
+            dots : true,
+            nav: false,
+            autoplayHoverPause : true,
+            stagePadding:20,
+            smartSpeed: 800
+        })    
 })(jQuery)
